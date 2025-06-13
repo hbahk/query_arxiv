@@ -15,6 +15,19 @@ A Python package for querying and analyzing arXiv submissions, with a focus on a
 
 ### Basic Query
 
+#### From Simple Command
+
+```bash
+python3 -m query_arxiv 2025-05-21
+```
+
+```bash
+python3 -m query_arxiv 2025-05-21 --include-abstract
+```
+
+
+#### From Python
+
 ```python
 import datetime
 import pytz
